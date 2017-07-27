@@ -1,0 +1,8 @@
+package com.revature.shapes;
+
+public interface Shape {
+	public double calculateArea();
+	public double sum() {
+		return 0;
+	}
+}

@@ -1,0 +1,20 @@
+package com.revature.hello;
+
+import com.revature.goodbye.*;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		
+		Goodbye g = new Goodbye();
+		System.out.println(g.message);
+		
+		final int i = 5;
+		
+		Child c = new Child();
+		c.printout();
+
+	}
+
+}

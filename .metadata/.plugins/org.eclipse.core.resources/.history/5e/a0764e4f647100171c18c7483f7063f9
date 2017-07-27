@@ -1,0 +1,22 @@
+package com.revature.exception;
+
+public class ExceptionDemo {
+	
+	public static String hello() {
+		return "Hello";
+	}
+	
+	public static int divide() {
+		return 1/0;
+	}
+
+	public static void main(String[] args) {
+		try {
+			System.out.println(divide());
+		} catch (Exception e) {
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.revature.shapes;
+
+public class Square extends Rectangle {
+
+	public Square() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Square(double height, double width) {
+		super(height, width);
+		// TODO Auto-generated constructor stub
+	}
+
+}

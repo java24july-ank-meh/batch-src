@@ -1,0 +1,11 @@
+package com.revature.shapes;
+
+public abstract class Ellipsis extends Shape {
+
+	@Override
+	public double calculateArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

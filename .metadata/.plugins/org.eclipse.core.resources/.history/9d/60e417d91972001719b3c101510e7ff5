@@ -1,0 +1,15 @@
+package com.revature.shapes;
+
+public class Rectangle extends Shape {
+	private double height;
+	private double width;
+
+	public Rectangle() {
+	}
+
+	@Override
+	public double calculateArea() {
+		return height * width;
+	}
+
+}

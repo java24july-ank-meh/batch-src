@@ -1,0 +1,29 @@
+package com.revature.io;
+
+import java.io.*;
+
+public class Main {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader in = null;
+		BufferedWriter out = null;
+		try {
+			in = new BufferedReader(new FileReader("src/new.txt"));
+			out = new BufferedWriter(new FileWriter("src/out.txt"));
+			
+			String c;
+			while((c = in.readLine()) != null) {
+				out.write(c);
+				out.write("\n");
+			}
+		} finally {
+			if (in != null) {
+				in.close();
+			}
+			if (out != null) {
+				out.close();
+			}
+		}
+	}
+
+}

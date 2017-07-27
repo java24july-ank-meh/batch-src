@@ -1,0 +1,12 @@
+package com.revature.StringDemo;
+
+public class StringBuilder {
+
+	public static void main(String[] args) {
+		SBDemo sb = new SBDemo();
+		for (char current = 'a'; current <= 'z'; current++) {
+			sb.append(current);
+		}
+	}
+
+}

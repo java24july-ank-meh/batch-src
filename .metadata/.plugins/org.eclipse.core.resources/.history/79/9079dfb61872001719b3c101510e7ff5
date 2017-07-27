@@ -1,0 +1,11 @@
+package com.revature.shapes;
+
+public class Circle extends Ellipse {
+
+	@Override
+	public double calculateArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

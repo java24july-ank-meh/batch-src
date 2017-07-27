@@ -1,0 +1,9 @@
+package com.revature.bean;
+
+public class Person {
+	private String name;
+	private int age;
+	private char sex;
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.revature.shapes;
+
+public abstract class Ellipse implements Shape {
+	public abstract double calculateArea();
+}

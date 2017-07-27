@@ -1,0 +1,29 @@
+package com.revature.StringDemo;
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		String str1 = "Hello World";
+		String str2 = new String("HELLO WORLD");
+		/*
+		if (str1.equalsIgnoreCase(str2)) {
+			System.out.println("Equals");
+		} else {
+			System.out.println("Not Equals");
+		}
+		*/
+		char[] helloArray = {'h', 'e', 'l', 'l', 'o'};
+		String helloString = new String(helloArray);
+		System.out.println(helloString);
+		
+		//indexOf
+		String str3 = "The quick brown fox jumps over the lazy dog";
+		System.out.println(str3.indexOf('k'));
+		str3 = "";
+		
+		//isEmpty
+		System.out.println(str3.isEmpty());
+
+	}
+
+}
