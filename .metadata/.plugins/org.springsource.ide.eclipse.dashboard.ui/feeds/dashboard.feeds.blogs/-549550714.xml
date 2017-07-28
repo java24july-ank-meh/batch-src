@@ -5,7 +5,53 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2017-07-27T20:11:58Z</updated>
+  <updated>2017-07-28T16:14:38Z</updated>
+  <entry>
+    <title>Spring Security OAuth 2.2 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/07/28/spring-security-oauth-2-2-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Joe Grandja</name>
+    </author>
+    <id>tag:spring.io,2017-07-28:2994</id>
+    <updated>2017-07-28T16:14:38Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the community, I&amp;#8217;m pleased to announce the release of Spring Security OAuth 2.2.0.RELEASE.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;The &lt;a href="https://github.com/spring-projects/spring-security-oauth/milestone/27?closed=1"&gt;2.2.0.RELEASE&lt;/a&gt; includes the following new features:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;JwtClaimsSetVerifier&lt;/code&gt; that provides the capability of verifying the claim(s) contained in a JWT Claims Set.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;IssuerClaimVerifier&lt;/code&gt; that verifies the Issuer (iss) claim contained in the JWT Claims Set.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;DelegatingJwtClaimsSetVerifier&lt;/code&gt; that simply delegates claims verification to it&amp;#8217;s internal list of &lt;code&gt;JwtClaimsSetVerifier&lt;/code&gt;(s).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;ProviderDiscoveryClient&lt;/code&gt; that is capable of discovering provider configuration information as defined by the &lt;a href="http://openid.net/specs/openid-connect-discovery-1_0.html"&gt;OpenID Connect Discovery 1.0&lt;/a&gt; specification.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;JwkTokenStore&lt;/code&gt; now supports multiple JWK Set URL&amp;#8217;s.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The ability to supply a custom &lt;code&gt;AccessTokenConverter&lt;/code&gt; to &lt;code&gt;JwkTokenStore&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This release also includes a small number of bug fixes and minor enhancements.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security-oauth/"&gt;Project Page&lt;/a&gt; |
+&lt;a href="https://github.com/spring-projects/spring-security-oauth/"&gt;GitHub&lt;/a&gt; |
+&lt;a href="http://projects.spring.io/spring-security-oauth/docs/Home.html"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security-oauth2"&gt;Help&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</content>
+  </entry>
   <entry>
     <title>Spring Session MongoDB 2.0.0.M2 released</title>
     <link rel="alternate" href="https://spring.io/blog/2017/07/27/spring-session-mongodb-2-0-0-m2-released" />
@@ -1049,32 +1095,5 @@ dependencies {&#xD;
 &lt;p&gt;Be sure to be on the lookout for Spring Batch 4.0.0.M3 coming out next week! New builders as well as the beginnings of our updates to our documentation will highlight that release.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://projects.spring.io/spring-batch/"&gt;Spring Batch Home&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-batch/reference/html/"&gt;Source on GitHub&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-batch/"&gt;Reference Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;We look forward to your feedback in &lt;a href="https://jira.spring.io/browse/BATCH"&gt;Jira&lt;/a&gt;, &lt;a href="http://stackoverflow.com/questions/tagged/spring-batch"&gt;StackOverflow&lt;/a&gt;, or to me directly via Twitter &lt;a href="https://twitter.com/michaelminella"&gt;@michaelminella&lt;/a&gt;.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Integration 4.3.11 is Available</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/07/20/spring-integration-4-3-11-is-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Artem Bilan</name>
-    </author>
-    <id>tag:spring.io,2017-07-20:2974</id>
-    <updated>2017-07-20T19:42:02Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the Spring Integration team, I am pleased to announce that the &lt;a href="https://jira.spring.io/jira/secure/ReleaseNote.jspa?projectId=10121&amp;amp;version=16227"&gt;4.3.11.RELEASE&lt;/a&gt; of Spring Integration is now available.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This release contains a few important bug fixes as well as a couple of improvements.
-In particular it contains a fix for the &lt;a href="https://pivotal.io/security/cve-2017-4995"&gt;Jackson Serialization Gadgets&lt;/a&gt; vulnerability. Hence introduced in the &lt;a href="https://spring.io/blog/2017/06/08/spring-integration-4-3-10-is-available"&gt;version 4.3.10&lt;/a&gt; custom &lt;code&gt;ObjectMapper&lt;/code&gt; utility
-doesn&amp;#8217;t allow now to deserialize objects in the untrusted packages. The set of trusted packages can be configured or you can use &lt;code&gt;*&lt;/code&gt; to trust all. See &lt;code&gt;JacksonJsonUtils.messagingAwareMapper()&lt;/code&gt; for more information.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Another useful fix is for (S)FTP Inbound Channel Adapters (and other remote file protocols, e.g. AWS S3) to rollback filtering for updated remote file when we can&amp;#8217;t transfer it to the local copy.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This version is the default version with the Spring Boot &lt;code&gt;1.5.5&lt;/code&gt; release.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-integration/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://jira.spring.io/browse/INT"&gt;JIRA&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-integration/blob/master/CONTRIBUTING.md"&gt;Contributions&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-integration"&gt;Help&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-integration"&gt;Chat&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>
