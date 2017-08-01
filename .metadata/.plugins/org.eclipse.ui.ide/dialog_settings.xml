@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="installedFeatures">
-		<item value="com.ianbrandt.tools.m2e.mdp.feature:0.0.4.201409291703"/>
+		<item value="com.ianbrandt.tools.m2e.mdp.feature:0.0.4.201410161303"/>
 		<item value="org.aspectj:1.8.10.201704242114"/>
 		<item value="org.eclipse.ajdt:2.2.4.201704242114"/>
 		<item value="org.eclipse.cft.server.core.feature:1.2.2.v201706141943"/>
@@ -38,8 +38,8 @@
 		<item value="org.eclipse.jst.ws.axis2tools.feature:1.1.301.v201410160332"/>
 		<item value="org.eclipse.jst.ws.cxf.feature:1.1.300.v201701262158"/>
 		<item value="org.eclipse.jst.ws.jaxws.feature:1.2.300.v201701262158"/>
-		<item value="org.eclipse.m2e.feature:1.8.0.20170516-2043"/>
-		<item value="org.eclipse.m2e.logback.feature:1.8.0.20170516-2043"/>
+		<item value="org.eclipse.m2e.feature:1.8.1.20170728-1531"/>
+		<item value="org.eclipse.m2e.logback.feature:1.8.1.20170728-1531"/>
 		<item value="org.eclipse.m2e.wtp.feature:1.3.2.20170517-2015"/>
 		<item value="org.eclipse.m2e.wtp.jaxrs.feature:1.3.2.20170517-2015"/>
 		<item value="org.eclipse.m2e.wtp.jsf.feature:1.3.2.20170517-2015"/>
