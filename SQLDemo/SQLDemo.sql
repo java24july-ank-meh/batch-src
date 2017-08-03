@@ -219,9 +219,13 @@ Subqueries - a query nested in the WHERE clause of a SELECT statement
             (SELECT FirstName FROM STUDENT_DETAILS WHERE Subject = 'Science');
 */
 
+/*IN operator: allows you to specify values in a WHERE clause, same as multiple
+OR conditions*/
+SELECT * FROM ALBUM WHERE TITLE IN ('Achtung Baby', 'War2');
+SELECT * FROM ALBUM WHERE TITLE IN (SELECT TITLE FROM ALBUM WHERE TITLE = 'Out Of Exile');
 
-
-
+/*EXISTS operator: test for existence, return true if one or more returned*/
+SELECT * FROM ALBUM WHERE EXISTS (SELECT TITLE FROM ALBUM WHERE TITLE = 'Out of Exile');
 
 
 
