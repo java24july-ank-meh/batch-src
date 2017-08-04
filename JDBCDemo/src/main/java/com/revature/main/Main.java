@@ -13,7 +13,8 @@ public class Main {
 		
 		//dao.readCave(1);
 		//dao.createCave(c);
-		System.out.println(dao.readAllCaves());
+		//System.out.println(dao.readAllCaves());
+		dao.feedBear(1, 100);
 	}
 
 }

@@ -1,5 +1,6 @@
 package com.revature.dao;
 
+import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -104,5 +105,42 @@ public class CaveDAOImpl implements CaveDAO {
 		// TODO Auto-generated method stub
 
 	}
+	
+	@Override
+	public void feedBear(int bid, int amt) {
+		//Callable Statement, extends PreparedStatement
+		CallableStatement cs = null;
+		try (Connection conn = ConnectionUtil.getConnectionProp()) {
+			//CallableStatement: {CALL PROCEDURE_NAME(?)}
+			String sql = "{CALL SP_FEED_BEAR(?, ?)}";
+			cs = conn.prepareCall(sql);
+			
+			//Set the arguments
+			cs.setInt(1, bid);
+			cs.setInt(2, amt);
+			
+			//Execute (returns boolean)
+			Boolean result = cs.execute();
+			if (result)
+				System.out.println("Fed Bear");
+			else
+				System.out.println("Failed, and was eaten");
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			if (cs != null) {
+				try {
+					cs.close();
+				} catch (SQLException e) {
+					e.printStackTrace();
+				}
+			}
+		}
+	}
 
 }
+
+
+
+

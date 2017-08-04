@@ -11,5 +11,7 @@ public interface CaveDAO {
 	public List<Cave> readAllCaves();
 	public void updateCave(Cave c);
 	public void deleteCave(int id);
+	
+	public void feedBear(int bid, int amt);
 
 }
