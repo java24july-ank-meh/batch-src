@@ -1,5 +1,0 @@
-package com.revature.goodbye;
-
-public final class Goodbye {
-	public String message = "Goodbye";
-}

@@ -1,7 +1,0 @@
-package com.revature.shapes;
-
-public abstract class Ellipsis extends Shape {
-
-	public double calculateArea();
-
-}

@@ -1,7 +1,0 @@
-package com.revature.bean;
-
-import java.io.Serializable;
-
-public class Person implements Serializable {
-
-}

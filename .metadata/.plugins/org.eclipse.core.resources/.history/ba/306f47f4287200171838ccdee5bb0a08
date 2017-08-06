@@ -1,5 +1,0 @@
-package com.revature.shapes;
-
-public interface Shape {
-	public abstract double calculateArea();
-}
