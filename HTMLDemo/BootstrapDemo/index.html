@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<title>BootstrapDemo</title>
+
+<!-- if IE, use (latest rendering enging) Edge-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+</head>
+
+<body>
+<!-- Containers: put padding around itself while 
+    container-fluid fills the screen. Required for
+    Boostrap grids -->
+<div class="container">
+    <!-- page-header adds space around text and enlarges.
+        Also adds an underline at end -->
+    <div class="page-header">
+        <h1>Bootstrap Demo</h1>
+    </div>
+
+    <!-- jumbotron enlarges fonts and puts it in a gray box
+        with rounded corners. If outside a container, 
+        fills entire width -->
+    <div class="jumbotron">
+        <p>Lorem ipsum dolor sit amet, consectetur adipscing elit.</p>
+    </div>
+
+    <!-- BUTTONS 
+        Many built in colors and sizes. If meant to trigger
+        something in page, use role="button" -->
+    <p>
+        <a href="#" class="btn btn-default btn-lg" role="button">More Info</a>
+        <button type="submit" class="btn btn-danger" role="button">Danger Button</button>
+        <input type="button" value="Info" class="btn btn-info" />
+        <button type="submit" class="btn-primary btn-sm">Primary</button>
+        <button type="submit" class="btn btn-success btn-xs">Success</button>
+        <button type="submit" class="btn btn-link btn-lg">Link</button>
+
+        <!-- Disable button/links with disabled -->
+        <button type="button" class="btn btn-lg" disabled="disabled">Disabled Btn</button>
+        <a href="#" class="btn btn-default btn-lg disabled" role="button">Link</a>
+
+        <!-- group buttons, size buttons with btn-group-lg/sm/xs -->
+        <div class="btn-group btn-group-lg" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">Small</button>
+            <button type="button" class="btn btn-default">Medium</button>
+            <button type="button" class="btn btn-default">Large</button>
+        </div>
+    </p>
+
+    <!-- Dropdown menu -->
+    <!-- You can easily add a drop down with class dropdown/dropup, change button sizes
+        etc. -->
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle btn-lg" type="button"
+            id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="true">
+        Favorite Hero Movies
+
+        <!-- Display icon in button -->
+        <span class="caret"></span>
+        </button>
+        
+        <ul class="dropdown-menu">
+            <!-- Unselectable header -->
+            <li class="dropdown-header">Marvel</li>
+            <li><a href="#">Spiderman</a></li>
+            <li><a href="#">Iron Man</a></li>
+
+            <!-- Separate content -->
+            <li role="separator" class="divider"></li>
+
+            <li class="dropdown-header">DC</li>
+            <li><a href="#">Batman</a></li>
+            <li><a href="#">Aquaman</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
