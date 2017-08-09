@@ -1199,3 +1199,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.lsp4e 1 0 2017-08-09 14:00:37.084
 !MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-08-09 14:46:16.368
+!MESSAGE Several ports (8005, 8181, 8009) required by Tomcat v8.5 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
