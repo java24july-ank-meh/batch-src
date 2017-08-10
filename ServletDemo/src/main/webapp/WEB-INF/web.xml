@@ -10,6 +10,16 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
+  <filter>
+  	<filter-name>ServletFilter</filter-name>
+  	<filter-class>com.revature.filters.ServletFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>ServletFilter</filter-name>
+  	<url-pattern>*.filter</url-pattern>
+  </filter-mapping>
+  
   <servlet>
   	<servlet-name>hello</servlet-name>
   	<servlet-class>com.revature.servlets.HelloServlet</servlet-class>
