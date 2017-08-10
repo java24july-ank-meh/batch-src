@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>AjaxDemo</title>
+</head>
+<body>
+	<h1 id="demo">Let AJAX change this text</h1>
+	<button type="button" onclick="loadDoc('ajaxinfo.txt', myFunction1)">Change</button>
+	
+	<h1 id="demo2">I choose you!</h1>
+	<button type="button" onclick="loadDoc'https://pokeapi.co/api/v2/pokemon/1/', myFunction2)">Change</button>
+	
+	<h1 id="demo3">Servlet call</h1>
+	<button type="button" onclick="myFunction()">Click me</button>
+	
+	<h1 id="demo4">BeanServlet call</h1>
+	<button type="button" onclick="beanJSON()">Click me</button>
+</body>
+<script>
+function loadDoc(url, fn) {
+	var xhttp = new XMLHttpRequest(); //No one uses IE5
+	xhttp.onreadystatechange = function() {
+		console.log(this.readyState);
+		if (this.readyState === 4 && this.status === 200) {
+			fn(this);
+		}
+	};
+	xhttp.open("GET", url, true);
+	xhttp.send();
+}
+
+function myFunction() {
+	let xhttp = new XMLHttpRequest();
+	
+	xhttp.onreadystatechange = function() {
+		console.log(this.readyState);
+		if(xhttp.readyState === 4 && xhttp.status === 200) {
+			console.log(xhttp.responseText);
+		}
+	}
+	
+	xhttp.open("GET", "AjaxServlet", true);
+	xhttp.send();
+}
+
+function beanJSON() {
+	let xhttp = new XMLHttpRequest();
+	
+	xhttp.onreadystatechange = function() {
+		if(xhttp.readyState === 4 && xhttp.status === 200) {
+			console.log(this.readyState)
+			alert(xhttp.responseText);
+		}
+	}
+	
+	xhttp.open("GET", "BeanServlet", true);
+	xhttp.send();
+}
+
+function myFunction1(xhttp) {
+	document.getElementById("demo").innerHTML = xhttp.responseText;
+}
+function myFunction2(xhttp) {
+	document.getElementById("demo2").innerHTML = xhttp.responseText;
+}
+</script>
+</html>
