@@ -5,52 +5,84 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
   <script src="js/app.js"></script>
   <script src="js/controllers/demoCtrl.js"></script>
+  <script src="js/controllers/forestCtrl.js"></script>
 </head>
 
 <body>
-  <div>
-    <label>Favorite color of rootScope</label>
-    <input type="text" ng-model="favoriteColor" 
-      placeholder="Start typing here" /> <p ng-bind="favoriteColor"></p>
-    <br/>
-    <p>{{favoriteColor}}</p>
+  <section>
+    <div ng-controller="forestCtrl">
+      <h1>Caves</h1>
+      Filter caves by <input type="text" placeholder="anything" ng-model="search" />
 
-    <!--Expressions with numerics-->
-    <p>5 + 5 = {{5+5}}</p>
-    <p>'5' + '5' = {{ '5' + '5' }}</p>
-  </div>
+      <ul>
+        <li ng-repeat="cave in caves | filter: search">
+          <input type="checkbox" ng-model="cave.rm" ng-hide="cave.isPermanent" />
+          <span>cave id: {{cave.id}}, cave name: {{cave.name}}</span>
+      </ul>
+        <button ng-click="removeCave($cave)"> Remove Cave</button>
+        Total: <span custom-directive></span>
 
-  <div ng-controller="demoCtrl">
-    <h1 ng-bind="firstName"></h1>
-    <h1>{{firstName}}</h1>
+      <h2>Add cave</h2>
+      <form ng-submit="addCave()">
+        <input type="number" ng-model="newCaveId" size="30" placeholder="Id" ng-style="inputStyle" style="" />
+        <input type="text" ng-model="newCaveName" size="30" placeholder="Name" ng-style="inputStyle" style="" />
+        <input type="submit" value="Add Cave" />
+      </form>
 
-    New Name: <input ng-model="newFirstName" />
-    <h3 ng-click="changeName()">Change Name</h3>
-    <h3>{{firstName}}</h3>
-    <h3>{{newFirstName}}</h3>
+      <h2>Temporary Caves</h2>
+      <ul>
+        <li ng-repeat="cave in caves | customFilter">
+          <span>cave id: {{cave.id}}, cave name: {{cave.name}}</span>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-    <ul ng-mousemove="myFunction($event)">
-      <li ng-repeat="person in people">{{person.name + ' from ' + person.state}}</li>
-    </ul>
-    Coordinates: {{x + ", " + y}}
-  </div>
+  <section ng-hide="true">
+    <div>
+      <label>Favorite color of rootScope</label>
+      <input type="text" ng-model="favoriteColor" 
+        placeholder="Start typing here" /> <p ng-bind="favoriteColor"></p>
+      <br/>
+      <p>{{favoriteColor}}</p>
 
-  <div ng-init="quantity=1; price=5">
-    <h3>Cost Calculator</h3>
-    Quantity = <input type="number" ng-model="quantity" /><br/>
-    Price = $<input type="number" ng-model="price" /><br/>
-    Total = ${{quantity * price}}
-  </div>
+      <!--Expressions with numerics-->
+      <p>5 + 5 = {{5+5}}</p>
+      <p>'5' + '5' = {{ '5' + '5' }}</p>
+    </div>
 
-  <div ng-init="backgroundColor = lightblue">
-    <h3>Set Background Color</h3>
-    <input style="background-color: {{backgroundColor}}" ng-model="backgroundColor" value="{{backgroundColor}}"/>
-  </div>
+    <div ng-controller="demoCtrl">
+      <h1 ng-bind="firstName"></h1>
+      <h1>{{firstName}}</h1>
 
-  <div ng-init="mySwitch = true">
-    <button ng-disabled="mySwitch">Click me!</button>
-    <input type="checkbox" ng-model="mySwitch" /> mySwitch: {{mySwitch}}
-    {{price}}
-  </div>
+      New Name: <input ng-model="newFirstName" />
+      <h3 ng-click="changeName()">Change Name</h3>
+      <h3>{{firstName}}</h3>
+      <h3>{{newFirstName}}</h3>
+
+      <ul ng-mousemove="myFunction($event)">
+        <li ng-repeat="person in people">{{person.name + ' from ' + person.state}}</li>
+      </ul>
+      Coordinates: {{x + ", " + y}}
+    </div>
+
+    <div ng-init="quantity=1; price=5">
+      <h3>Cost Calculator</h3>
+      Quantity = <input type="number" ng-model="quantity" /><br/>
+      Price = $<input type="number" ng-model="price" /><br/>
+      Total = ${{quantity * price}}
+    </div>
+
+    <div ng-init="backgroundColor = lightblue">
+      <h3>Set Background Color</h3>
+      <input style="background-color: {{backgroundColor}}" ng-model="backgroundColor" value="{{backgroundColor}}"/>
+    </div>
+
+    <div ng-init="mySwitch = true">
+      <button ng-disabled="mySwitch">Click me!</button>
+      <input type="checkbox" ng-model="mySwitch" /> mySwitch: {{mySwitch}}
+      {{price}}
+    </div>
+  </section>
 </body>
 </html>
