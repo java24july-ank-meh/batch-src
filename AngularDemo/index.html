@@ -24,8 +24,15 @@
     <h1 ng-bind="firstName"></h1>
     <h1>{{firstName}}</h1>
 
-    New Name: <input ng-model="firstName" />
+    New Name: <input ng-model="newFirstName" />
+    <h3 ng-click="changeName()">Change Name</h3>
     <h3>{{firstName}}</h3>
+    <h3>{{newFirstName}}</h3>
+
+    <ul ng-mousemove="myFunction($event)">
+      <li ng-repeat="person in people">{{person.name + ' from ' + person.state}}</li>
+    </ul>
+    Coordinates: {{x + ", " + y}}
   </div>
 
   <div ng-init="quantity=1; price=5">
