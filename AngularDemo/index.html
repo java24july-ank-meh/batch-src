@@ -27,5 +27,23 @@
     New Name: <input ng-model="firstName" />
     <h3>{{firstName}}</h3>
   </div>
+
+  <div ng-init="quantity=1; price=5">
+    <h3>Cost Calculator</h3>
+    Quantity = <input type="number" ng-model="quantity" /><br/>
+    Price = $<input type="number" ng-model="price" /><br/>
+    Total = ${{quantity * price}}
+  </div>
+
+  <div ng-init="backgroundColor = lightblue">
+    <h3>Set Background Color</h3>
+    <input style="background-color: {{backgroundColor}}" ng-model="backgroundColor" value="{{backgroundColor}}"/>
+  </div>
+
+  <div ng-init="mySwitch = true">
+    <button ng-disabled="mySwitch">Click me!</button>
+    <input type="checkbox" ng-model="mySwitch" /> mySwitch: {{mySwitch}}
+    {{price}}
+  </div>
 </body>
 </html>
