@@ -11,11 +11,11 @@
 		<item value="false" key="OmitCallToSuper"/>
 	</section>
 	<section name="DialogBounds_SuperInterfaceSelectionDialog">
-		<item value="478" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="681" key="DIALOG_HEIGHT"/>
+		<item value="373" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="549" key="DIALOG_HEIGHT"/>
 		<item value="111" key="DIALOG_X_ORIGIN"/>
-		<item value="-16" key="DIALOG_Y_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
@@ -25,9 +25,9 @@
 		<item value="false" key="linkWithEditor"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item value="678" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="869" key="DIALOG_HEIGHT"/>
+		<item value="519" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="678" key="DIALOG_HEIGHT"/>
 		<item value="630" key="DIALOG_X_ORIGIN"/>
 		<item value="9" key="DIALOG_Y_ORIGIN"/>
 	</section>
@@ -52,9 +52,9 @@
 		<item value="false" key="FinalModifier"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
-		<item value="678" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="889" key="DIALOG_HEIGHT"/>
+		<item value="528" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="696" key="DIALOG_HEIGHT"/>
 		<item value="630" key="DIALOG_X_ORIGIN"/>
 		<item value="9" key="DIALOG_Y_ORIGIN"/>
 	</section>
@@ -63,9 +63,9 @@
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
-		<item value="678" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="877" key="DIALOG_HEIGHT"/>
+		<item value="516" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="691" key="DIALOG_HEIGHT"/>
 		<item value="630" key="DIALOG_X_ORIGIN"/>
 		<item value="9" key="DIALOG_Y_ORIGIN"/>
 	</section>
@@ -91,9 +91,9 @@
 		<item value="false" key="OmitCallToSuper"/>
 	</section>
 	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
-		<item value="678" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="806" key="DIALOG_HEIGHT"/>
+		<item value="519" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="627" key="DIALOG_HEIGHT"/>
 		<item value="630" key="DIALOG_X_ORIGIN"/>
 		<item value="9" key="DIALOG_Y_ORIGIN"/>
 	</section>
@@ -101,6 +101,9 @@
 	</section>
 	<section name="BuildPathsPropertyPage">
 		<item value="3" key="pageIndex"/>
+	</section>
+	<section name="NewPackageWizardPage">
+		<item value="false" key="create_package_info_java"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>

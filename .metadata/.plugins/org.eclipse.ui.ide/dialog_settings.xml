@@ -110,6 +110,13 @@
 		<item value="org.springsource.sts.package:3.9.0.201707061823-RELEASE-e47"/>
 		<item value="org.springsource.sts:3.9.0.201707061823-RELEASE"/>
 	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="402" key="DIALOG_HEIGHT"/>
+		<item value="433" key="DIALOG_X_ORIGIN"/>
+		<item value="101" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="NewWizardAction">
 	</section>
 </section>
