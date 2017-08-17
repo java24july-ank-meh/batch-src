@@ -5,7 +5,42 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2017-08-08T12:45:00Z</updated>
+  <updated>2017-08-15T04:56:05Z</updated>
+  <entry>
+    <title>This Week in Spring - August 15th, 2017</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/08/15/this-week-in-spring-august-15th-2017" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2017-08-15:3000</id>
+    <updated>2017-08-15T04:56:05Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans and welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! It&amp;rsquo;s been a busy week! I started last week talking to a group of developers in North Carolina, then gave a VJUG presentation with Matt Raible in San Francisco, then spoke to developers in Saint Louis, then flew to New York City to shoot a video on continuous delivery for three days in a hot studio (over the weekend no less!) and now as I wing back to San Francisco I look forward to spending a blissful 14 hours on the ground before I&amp;rsquo;m off to Asia (Hangzhou, Shanghai, Beijing, Shenzhen, Hong Kong, and Singapore) for about four weeks! I&amp;rsquo;m not the only who&amp;rsquo;s been busy, though! As usual, we&amp;rsquo;ve got a &lt;em&gt;lot&lt;/em&gt; to cover this week so let&amp;rsquo;s get to it! &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;My friend and Spring Framework lead &lt;a href="http://twitter.com/springJuergen"&gt;Juergen Hoeller&lt;/a&gt; gave a talk &lt;a href="https://www.youtube.com/watch?v=TZUZgU6rsNY"&gt;introducing reactive programming with Spring&lt;/a&gt; at Devoxx PL 2017. I hope you&amp;rsquo;ll watch this one, if you watch anything.&lt;/li&gt;
+  &lt;li&gt;My buddy &lt;a href="http://twitter.com/mraible"&gt;Matt Raible&lt;/a&gt; and &lt;a href="http://twitter.com/starbuxman"&gt;I&lt;/a&gt; did a presentation last week that &lt;a href="https://virtualjug.com/building-robust-apis-and-apps-with-spring-boot-and-angular/"&gt;looked at building progressive web applications and robust backend services with Angular and Spring Boot&lt;/a&gt;. Matt and I have given this talk a few times and it&amp;rsquo;s always fun. We do the talk live. I write the backend services and he writes the frontend client. I write the backend service using Apache Groovy, Kotlin and Java. He uses TypeScript in the frontend. I think Matt&amp;rsquo;s the real hero here, of course, because even though I wrote 3 services, Matt ended up writing &lt;em&gt;reams&lt;/em&gt; more TypeScript to get a client working! :D This video was crazy fun. I hope you&amp;rsquo;ll check it out.&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.amazon.com/Cloud-Native-Java-Designing-Resilient/dp/1449374646/ref=sr_1_1?ie=UTF8&amp;qid=1502769139&amp;sr=8-1&amp;keywords=cloud+native+java"&gt;&lt;em&gt;Cloud Native Java&lt;/em&gt; is &lt;em&gt;finally&lt;/em&gt; done and shipping&lt;/a&gt;! My friend Kenny Bastani and I wrote a little book for O&amp;rsquo;Reilly - &lt;em&gt;Cloud Native Java&lt;/em&gt; - on how to build cloud native Java applications in terms of Spring Boot, Spring Cloud and Cloud Foundry. The book took us two years, has been reviewed a zillion different ways by folks on the Spring team, has forwards by Spring creator Rod Johnson and Cloud Foundry legend James Watters. It&amp;rsquo;s not the worst book that you could buy, and I hope you&amp;rsquo;ll consider it. Thanks so much for your patience, Spring fans! :-)&lt;/li&gt;
+  &lt;li&gt;SpringOne Platform 2017, held in the Moscone center in beautiful San Francisco, CA, is in four short months! I&amp;rsquo;m going and I hope you will too. If you need more convincing, &lt;a href="https://spring.io/blog/2017/08/08/there-s-no-place-like-production-springone-platform-will-illuminate-the-path"&gt;read this&lt;/a&gt;. If you&amp;rsquo;re already convinced then click that link for the ridiculous animated &lt;code&gt;.gif&lt;/code&gt; that the marketing team put together!&lt;/li&gt;
+  &lt;li&gt;I am absolutely loving &lt;a href="https://docs.spring.io/spring-framework/docs/5.0.0.BUILD-SNAPSHOT/spring-framework-reference/"&gt;the Spring Framework 5 reference documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I liked this pull-request. It&amp;rsquo;s by no means a definitive look at what will be supported or not supported, but the comments &lt;em&gt;are&lt;/em&gt; interesting. It looks at what Spring Boot 2 &lt;em&gt;might&lt;/em&gt; support HTTP 2 by default. Perhaps it&amp;rsquo;s a Java 9-only feature? Maybe there&amp;rsquo;s an appetite to explore some of the truly wretched options required to make it work on Java 8? If you have ideas or want to learn more, &lt;a href="https://github.com/spring-projects/spring-boot/pull/9981"&gt;check out this issue&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;Have you seen the new &lt;a href="https://spring.io/guides/gs/spring-cloud-gcp/"&gt;Spring &lt;em&gt;Getting Started&lt;/em&gt; guide on messaging with Google Cloud Pub/Sub&lt;/a&gt;?&lt;/li&gt;
+  &lt;li&gt;This Codecentric post &lt;a href="https://blog.codecentric.de/en/2017/08/parsing-of-localdate-query-parameters-in-spring-boot/"&gt;looks at how to parse Java 8 &lt;code&gt;LocalDate&lt;/code&gt;&lt;/a&gt; query parameters with a given date format.&lt;/li&gt;
+  &lt;li&gt;Matthew Casperson &lt;a href="https://dzone.com/articles/logging-into-a-spring-bootelide-json-api-server?fromrel=true"&gt;looks at adding Spring Security to a Spring Boot-based project&lt;/a&gt;. Short and sweet - just the way it should be! Nice job Matthew!&lt;/li&gt;
+  &lt;li&gt;This Dzone RefCard is a pretty &lt;a href="https://dzone.com/refcardz/getting-to-know-google-compute-engine-and-how-to-u"&gt;good introduction to using Google Cloud&lt;/a&gt;. I have really grown to like Google Cloud - it provides a lot of business-differentiating functionality all while being an amazing place to run Cloud Foundry.&lt;/li&gt;
+  &lt;li&gt;My friend John Willis looks &lt;a href="https://slightlyeastofnew.com/2013/11/20/pdca-vs-ooda-why-not-take-both/amp/"&gt;at different models - PDCA and OODA - for organizational orientation&lt;/a&gt;; how to figure out what to do next based on what&amp;rsquo;s happened. This has nothing to do with Spring, per se, and everything with building the right thing (with Spring).&lt;/li&gt;
+  &lt;li&gt;This week I spent a few days in studio shooting more content - this time looking at continuous delivery in terms of the Spring and Pivotal ecosystems - with my friend (and Pivotal&amp;rsquo;s resident continuous delivery mad-scientist) &lt;a href="http://twitter.com/mGrzejszczak"&gt;Marcin Grzejszczak&lt;/a&gt;. All this to say we spend a non-negative number of minutes dissecting JSON Path in the video and it seemed a propos to remind folks of &lt;a href="https://github.com/json-path/JsonPath"&gt;the JSON Path project itself&lt;/a&gt; and &lt;a href="http://www.baeldung.com/guide-to-jayway-jsonpath"&gt;this post introducing JSON Path&lt;/a&gt; from the Baeldung blog.&lt;/li&gt;
+  &lt;li&gt;The Okta blog is on fire since the Stormpath team-meld! So much great content, seemingly every day! &lt;a href="https://developer.okta.com/blog/2017/07/13/apache-shiro-spring-boot"&gt;Here&amp;rsquo;s a nice post on securing Spring Boot applications with Apache Shiro&lt;/a&gt;, for those that do that sort of thing..&lt;/li&gt;
+  &lt;li&gt;Also from the Okta blog this last week, &lt;a href="https://developer.okta.com/blog/2017/08/08/secure-spring-microservices"&gt;Matt Raible&amp;rsquo;s epic post that looks&lt;/a&gt; at how to secure Spring Boot and Spring Cloud microservices using JWTs, Juiser and Okta. Nice job Matt!&lt;/li&gt;
+  &lt;li&gt;Congratulations to the Reactive Streams teams who just last week announced that &lt;a href="http://www.reactive-streams.org/announce-1.0.1"&gt;Reactive Streams 1.0.1&lt;/a&gt; is here!&lt;/li&gt;
+  &lt;li&gt;Auth0&amp;rsquo;s security with Spring Boot game is pretty on point, too! This week they released a useful &lt;a href="https://auth0.com/blog/implementing-jwt-authentication-on-spring-boot/"&gt;look at securing Spring Boot applications with JSON Web Tokens (JWTs)&lt;/a&gt;. Nice job!&lt;/li&gt;
+  &lt;li&gt;Atomist co-founder Russ Miles looks at their collaboration tool&amp;rsquo;s ability to &lt;a href="https://github.com/ErnestOrt/Trampoline/releases"&gt;smoothly support a pull-request workflow&lt;/a&gt;. They do so in the context of a application (which happens to be written in Spring Boot) and while referencing Spring Boot in a post isn&amp;rsquo;t in of itself normally enough to be worthy of inclusion in these humble paragraphs, Atomist is generally so cool I&amp;rsquo;ll make an exception!&lt;/li&gt;
+  &lt;li&gt;Congratulations to the Kotlin team at JetBrains on the &lt;a href="https://blog.jetbrains.com/kotlin/2017/08/kotlin-1-2-m2-is-out/"&gt;new Kotlin 1.2.M2&lt;/a&gt; release looks terrific. It includes new APIs supporting mathematics that work in a uniform way across the JVM and JavaScript runtimes for Kotlin. Now&amp;rsquo;s a good time to kick the tires and try the new features, perhaps &lt;a href="http://start.spring.io"&gt;using the Spring Boot Initializr&lt;/a&gt;?&lt;/li&gt;
+  &lt;li&gt;Redmonk have a great post &lt;a href="http://redmonk.com/jgovernor/2017/08/10/notes-from-the-field-spring-boot-at-tesla-and-new-relic/"&gt;on Spring Boot users New Relic and the Tesla&lt;/a&gt; - in the field who&amp;rsquo;ve recently published their use.&lt;/li&gt;
+  &lt;li&gt;The YouTube playlist for the Seoul, Korea-based &lt;a href="https://www.youtube.com/playlist?list=PLdHtZnJh1KdZ6NDO9zc9hF4tONDLTSEUV"&gt;&lt;em&gt;Spring Camp&lt;/em&gt;&lt;/a&gt; event and all of its wondedrful Pivotal and Spring-centric content (in Koean!) is now available. This is a wonderful resource for Korean speakers!&lt;/li&gt;
+  &lt;li&gt;This &lt;a href="https://www.casadocodigo.com.br/products/livro-spring-boot"&gt;Portuguese-language book on Spring Boot - &lt;em&gt;Spring Boot: Acelere o desenvolvimento de microsserviços&lt;/em&gt;&lt;/a&gt; looks like it could be a good read.&lt;/li&gt;
+  &lt;li&gt;Bernd Rücker from &lt;a href="https://github.com/berndruecker/camunda-spring-boot-amqp-microservice-cloud-example/"&gt;the Camunda BPM team&lt;/a&gt; have put out a very cool exammple of integrating Camunda BPM with Spring Boot in a distributed application. The &lt;code&gt;README&lt;/code&gt; is almost as interesting as the code itself, too. I love the discussion of testing which is something that&amp;rsquo;s typically missing from higher-level tools like workflow engines.&lt;br/&gt;ng from higher-level tools like workflow engines.&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>There's no place like production. SpringOne Platform will illuminate the path.</title>
     <link rel="alternate" href="https://spring.io/blog/2017/08/08/there-s-no-place-like-production-springone-platform-will-illuminate-the-path" />
@@ -327,7 +362,7 @@ needed to take to customize the project to suit your company&amp;#8217;s needs. 
     <id>tag:spring.io,2017-07-28:2993</id>
     <updated>2017-08-01T12:12:00Z</updated>
     <content type="html">&lt;p&gt;Since our original announcement (very well received by the community!) of &lt;a href="https://spring.io/blog/2017/01/04/introducing-kotlin-support-in-spring-framework-5-0"&gt;official Kotlin support in Spring Framework 5&lt;/a&gt;, we have continued to work towards even stronger Kotlin support in conjunction with recent refinements in Spring WebFlux.&lt;/p&gt;
-&lt;p&gt;In order to demonstrate these features, and how they could be used together, I have created a new &lt;a href="https://github.com/sdeleuze/spring-kotlin-functional"&gt; &lt;code&gt;spring-kotlin-functional&lt;/code&gt;&lt;/a&gt; demo application which is a standalone Spring WebFlux application, developed in Kotlin, with Mustache template rendering, JSON REST webservices and Server-Sent Events streaming capabilities. Don&amp;rsquo;t hesitate to send us feedbacks and proposals before Spring Framework 5 release expected in September.&lt;/p&gt;&lt;h2&gt;&lt;a href="#programmatic-bootstrap" class="anchor" name="programmatic-bootstrap"&gt;&lt;/a&gt;Programmatic bootstrap&lt;/h2&gt;
+&lt;p&gt;In order to demonstrate these features, and how they could be used together, I have created a new &lt;a href="https://github.com/sdeleuze/spring-kotlin-functional"&gt;spring-kotlin-functional&lt;/a&gt; demo application which is a standalone Spring WebFlux application, developed in Kotlin, with Mustache template rendering, JSON REST webservices and Server-Sent Events streaming capabilities. Don&amp;rsquo;t hesitate to send us feedbacks and proposals before Spring Framework 5 release expected in September.&lt;/p&gt;&lt;h2&gt;&lt;a href="#programmatic-bootstrap" class="anchor" name="programmatic-bootstrap"&gt;&lt;/a&gt;Programmatic bootstrap&lt;/h2&gt;
 &lt;p&gt;Spring WebFlux and Reactor Netty allow for programmatic bootstrap of the application since they are natively designed to run as an embedded webserver. This is obviously not needed when developing a Spring Boot application but can be very useful for tight deployment units with custom bootstrapping in a microservice architecture or other constrained environments.&lt;/p&gt;
 &lt;pre&gt;&lt;code class="prettyprint kotlin"&gt;class Application {&#xD;
 	&#xD;
@@ -362,7 +397,7 @@ fun main(args: Array&amp;lt;String&amp;gt;) {&#xD;
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#functional-bean-definitions-with-spring-rsquo-s-new-kotlin-dsl" class="anchor" name="functional-bean-definitions-with-spring-rsquo-s-new-kotlin-dsl"&gt;&lt;/a&gt;Functional bean definitions with Spring&amp;rsquo;s new Kotlin DSL&lt;/h2&gt;
 &lt;p&gt;Spring Framework 5 introduces a new way of registering beans using lambdas. It is very efficient, does not require any reflection or CGLIB proxies (so &lt;a href="https://kotlinlang.org/docs/reference/compiler-plugins.html#kotlin-spring-compiler-plugin"&gt;&lt;code&gt;kotlin-spring&lt;/code&gt;&lt;/a&gt; plugin is not needed for Reactive apps), and is a good fit with languages like Java 8 or Kotlin. You can have an overview of Java versus Kotlin syntax &lt;a href="https://spring.io/blog/2017/01/04/introducing-kotlin-support-in-spring-framework-5-0#functional-bean-declaration-dsl"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In &lt;a href="https://github.com/sdeleuze/spring-kotlin-functional"&gt; &lt;code&gt;spring-kotlin-functional&lt;/code&gt;&lt;/a&gt;, beans are declared in a &lt;code&gt;Beans.kt&lt;/code&gt; file which contains bean definitions. The DSL conceptually declare a &lt;code&gt;Consumer&amp;lt;GenericApplicationContext&amp;gt;&lt;/code&gt; via a clean declarative API which allows you to deal with profile and &lt;code&gt;Environment&lt;/code&gt; for customizing how your beans are registered. This DSL also allows custom registration logic of beans via &lt;code&gt;if&lt;/code&gt; expression, &lt;code&gt;for&lt;/code&gt; loop or any other Kotlin constructs.&lt;/p&gt;
+&lt;p&gt;In &lt;a href="https://github.com/sdeleuze/spring-kotlin-functional"&gt; spring-kotlin-functional&lt;/a&gt;, beans are declared in a &lt;code&gt;Beans.kt&lt;/code&gt; file which contains bean definitions. The DSL conceptually declare a &lt;code&gt;Consumer&amp;lt;GenericApplicationContext&amp;gt;&lt;/code&gt; via a clean declarative API which allows you to deal with profile and &lt;code&gt;Environment&lt;/code&gt; for customizing how your beans are registered. This DSL also allows custom registration logic of beans via &lt;code&gt;if&lt;/code&gt; expression, &lt;code&gt;for&lt;/code&gt; loop or any other Kotlin constructs.&lt;/p&gt;
 &lt;pre&gt;&lt;code class="prettyprint kotlin"&gt;beans {&#xD;
   bean&amp;lt;UserHandler&amp;gt;()&#xD;
   bean {&#xD;
@@ -397,8 +432,8 @@ fun main(args: Array&amp;lt;String&amp;gt;) {&#xD;
 &lt;p&gt;&lt;code&gt;Routes(ref(), ref())&lt;/code&gt; is the equivalent of &lt;code&gt;Routes(ref&amp;lt;UserHandler&amp;gt;(), ref&amp;lt;MessageSource&amp;gt;())&lt;/code&gt; (types are not required thanks to Kotlin type inference) where &lt;code&gt;ref&amp;lt;UserHandler&amp;gt;()&lt;/code&gt; is a shortcut for &lt;code&gt;applicationContext.getBean(UserHandler::class.java)&lt;/code&gt;. We may provide an alternative syntax for autowiring classes by constructor which is pretty common in Koltin.&lt;/p&gt;&lt;h2&gt;&lt;a href="#null-safety-of-spring-and-reactor-apis" class="anchor" name="null-safety-of-spring-and-reactor-apis"&gt;&lt;/a&gt;Null-safety of Spring and Reactor APIs&lt;/h2&gt;
 &lt;p&gt;One of Kotlin&amp;rsquo;s key features is &lt;a href="https://kotlinlang.org/docs/reference/null-safety.html"&gt;null-safety&lt;/a&gt; which allows to deal with &lt;code&gt;null&lt;/code&gt; values at compile time rather than bumping into the famous &lt;code&gt;NullPointerException&lt;/code&gt; at runtime. This makes your applications safer through clean nullability declarations, expressing &amp;ldquo;value or no value&amp;rdquo; semantics without paying the cost of wrapper like &lt;code&gt;Optional&lt;/code&gt;. (Kotlin allows using functional constructs with nullable values; check out this &lt;a href="http://www.baeldung.com/kotlin-null-safety"&gt;comprehensive guide to Kotlin null-safety&lt;/a&gt;.)&lt;/p&gt;
 &lt;p&gt;Although Java does not allow to express null-safety in its type-system, we have introduced some amount of &lt;a href="https://jira.spring.io/browse/SPR-15540"&gt;null-safety to Spring APIs&lt;/a&gt; via tooling-friendly annotations: &lt;code&gt;@NonNullApi&lt;/code&gt; annotations at package level declare that non-null is the default behavior, and we explicitly put &lt;code&gt;@Nullable&lt;/code&gt; annotations where specific parameters or return values can be &lt;code&gt;null&lt;/code&gt;. We have done this work for the whole Spring Framework API (yes it was a huge effort!), and other projects like &lt;a href="https://jira.spring.io/browse/DATACMNS-1114"&gt;Spring Data&lt;/a&gt; begin to leverage it. Spring annotation are meta-annotated with JSR 305 meta-annotation (a dormant JSR but supported by tools like IDEA, Eclipse, Findbugs, etc.) to provide useful warnings to Java developers.&lt;/p&gt;
-&lt;p&gt;On the Kotlin side, the killer feature is that - as of the upcoming Kotlin 1.1.4 release - these annotations &lt;a href="https://youtrack.jetbrains.com/issue/KT-10942"&gt;are recognized by Kotlin&lt;/a&gt; in order to provide null-safety for the whole Spring API. That means you should never have &lt;code&gt;NullPointerException&lt;/code&gt; in your code when using Spring 5 and Kotlin because the compiler will not allow it. For now, you need to use a &lt;code&gt;-Xjsr305-annotations=enable&lt;/code&gt; flag but that will became the default behavior in an upcoming release of Kotlin.&lt;/p&gt;
-&lt;p&gt;Make sure to &lt;a href="https://github.com/sdeleuze/spring-kotlin-functional/blob/2d6ac07adfc2b8f25e91681dbb2b58a1c6cdf9a7/build.gradle.kts#L57"&gt;include JSR-305 JAR&lt;/a&gt; until &lt;a href="https://youtrack.jetbrains.com/issue/KT-19419"&gt;KT-19419&lt;/a&gt; is fixed, and use Kotlin 1.1.4 latest EAP to get null-safety taken in account in IDEA.&lt;/p&gt;&lt;h2&gt;&lt;a href="#functional-routing-with-the-kotlin-dsl-for-spring-webflux" class="anchor" name="functional-routing-with-the-kotlin-dsl-for-spring-webflux"&gt;&lt;/a&gt;Functional routing with the Kotlin DSL for Spring WebFlux&lt;/h2&gt;
+&lt;p&gt;On the Kotlin side, the killer feature is that - as of the &lt;a href="https://blog.jetbrains.com/kotlin/2017/08/kotlin-1-1-4-is-out/"&gt;Kotlin 1.1.4 release&lt;/a&gt; - these annotations &lt;a href="https://youtrack.jetbrains.com/issue/KT-10942"&gt;are recognized by Kotlin&lt;/a&gt; in order to provide null-safety for the whole Spring API. That means you should never have &lt;code&gt;NullPointerException&lt;/code&gt; in your code when using Spring 5 and Kotlin because the compiler will not allow it. For now, you need to use a &lt;code&gt;-Xjsr305-annotations=enable&lt;/code&gt; flag but that will became the default behavior in an upcoming release of Kotlin.&lt;/p&gt;
+&lt;p&gt;Make sure to &lt;a href="https://github.com/sdeleuze/spring-kotlin-functional/blob/2d6ac07adfc2b8f25e91681dbb2b58a1c6cdf9a7/build.gradle.kts#L57"&gt;include JSR-305 JAR&lt;/a&gt; until &lt;a href="https://youtrack.jetbrains.com/issue/KT-19419"&gt;KT-19419&lt;/a&gt; is fixed, and use Kotlin 1.1.4+ to get null-safety taken in account in IDEA.&lt;/p&gt;&lt;h2&gt;&lt;a href="#functional-routing-with-the-kotlin-dsl-for-spring-webflux" class="anchor" name="functional-routing-with-the-kotlin-dsl-for-spring-webflux"&gt;&lt;/a&gt;Functional routing with the Kotlin DSL for Spring WebFlux&lt;/h2&gt;
 &lt;p&gt;Instead of using &lt;code&gt;@RestController&lt;/code&gt; and &lt;code&gt;@RequestMapping&lt;/code&gt;, &lt;code&gt;spring-kotlin-functional&lt;/code&gt; is using the WebFlux functional API via a dedicated Kotlin DSL.&lt;/p&gt;
 &lt;pre&gt;&lt;code class="prettyprint"&gt;router {&#xD;
   accept(TEXT_HTML).nest {&#xD;
@@ -442,9 +477,8 @@ fun main(args: Array&amp;lt;String&amp;gt;) {&#xD;
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Notice it is super easy to create Server-Sent Events endpoints with Spring WebFlux, as well as server-side template rendering (Mustache in this application).&lt;/p&gt;&lt;h2&gt;&lt;a href="#easy-testing-with-webclient-reactor-test-and-junit-5" class="anchor" name="easy-testing-with-webclient-reactor-test-and-junit-5"&gt;&lt;/a&gt;Easy testing with WebClient, Reactor Test and JUnit 5&lt;/h2&gt;
-&lt;p&gt;Kotlin allows to specify meaningful test function names betweeen backticks, and as of JUnit 5.0 RC2 Kotlin test classes can use &lt;code&gt;@TestInstance(TestInstance.Lifecycle.PER_CLASS)&lt;/code&gt; to enable a single instantiation of test classes which allows to use &lt;code&gt;@BeforeAll&lt;/code&gt; and &lt;code&gt;@AfterAll&lt;/code&gt; annotations on non-static methods, which is a good fit for Kotlin. When &lt;a href="https://github.com/junit-team/junit5/issues/905"&gt;this issue&lt;/a&gt; will be fixed, it should be possible to configure that as the default behavior.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@TestInstance(PER_CLASS)&#xD;
-class IntegrationTests {&#xD;
+&lt;p&gt;Kotlin allows to specify meaningful test function names betweeen backticks, and as of JUnit 5.0 RC2 Kotlin test classes can use &lt;code&gt;@TestInstance(TestInstance.Lifecycle.PER_CLASS)&lt;/code&gt; to enable a single instantiation of test classes which allows to use &lt;code&gt;@BeforeAll&lt;/code&gt; and &lt;code&gt;@AfterAll&lt;/code&gt; annotations on non-static methods, which is a good fit for Kotlin. It is also now possible to change the default behavior to &lt;code&gt;PER_CLASS&lt;/code&gt; thanks to a &lt;code&gt;junit-platform.properties&lt;/code&gt; file with a &lt;code&gt;junit.jupiter.testinstance.lifecycle.default = per_class&lt;/code&gt; property.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;class IntegrationTests {&#xD;
 	&#xD;
   val application = Application(8181)&#xD;
   val client = WebClient.create(&amp;quot;http://localhost:8181&amp;quot;)&#xD;
@@ -1183,71 +1217,5 @@ We expect RC and subsequent GA somewhere in the end of October, beginning of Nov
   &lt;li&gt;Spring Data Elasticsearch 3.0 RC2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-elasticsearch/3.0.0.RC2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/3.0.0.RC2/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/3.0.0.RC2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/3.0.0.RC2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Spring Data Couchbase 3.0 RC2 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-couchbase/3.0.0.RC2"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/3.0.0.RC2/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/3.0.0.RC2/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/3.0.0.RC2/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Session 2.0 M3 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/07/25/spring-session-2-0-m3-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Joe Grandja</name>
-    </author>
-    <id>tag:spring.io,2017-07-24:2979</id>
-    <updated>2017-07-25T15:10:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the community I&amp;#8217;m pleased to announce the release of &lt;a href="http://docs.spring.io/spring-session/docs/2.0.0.M3/reference/html5/"&gt;Spring Session 2.0.0.M3&lt;/a&gt;. This release is focused primarily on ensuring compatibility with Spring Framework 5.0.0.RC3 and Spring Data Kay RC1 which is the minimum Spring version required.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;This release includes the following new features:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Support added for Spring WebFlux&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Support for WebFlux&amp;#8217;s &lt;code&gt;WebSession&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Added &lt;code&gt;ReactorSessionRepository&lt;/code&gt; to support a reactive &lt;code&gt;SessionRepository&lt;/code&gt; API. The default implementation provided is &lt;code&gt;MapReactorSessionRepository&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;We have split Spring Session into modules based upon the repository implementation. You will find:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-xml" data-lang="xml"&gt;&amp;lt;dependency&amp;gt;
-  &amp;lt;groupId&amp;gt;org.springframework.session&amp;lt;/groupId&amp;gt;
-  &amp;lt;artifactId&amp;gt;spring-session-core&amp;lt;/artifactId&amp;gt;
-  &amp;lt;version&amp;gt;2.0.0.M3&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;
-&amp;lt;dependency&amp;gt;
-  &amp;lt;groupId&amp;gt;org.springframework.session&amp;lt;/groupId&amp;gt;
-  &amp;lt;artifactId&amp;gt;spring-session-data-redis&amp;lt;/artifactId&amp;gt;
-  &amp;lt;version&amp;gt;2.0.0.M3&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;
-&amp;lt;dependency&amp;gt;
-  &amp;lt;groupId&amp;gt;org.springframework.session&amp;lt;/groupId&amp;gt;
-  &amp;lt;artifactId&amp;gt;spring-session-hazelcast&amp;lt;/artifactId&amp;gt;
-  &amp;lt;version&amp;gt;2.0.0.M3&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;
-&amp;lt;dependency&amp;gt;
-  &amp;lt;groupId&amp;gt;org.springframework.session&amp;lt;/groupId&amp;gt;
-  &amp;lt;artifactId&amp;gt;spring-session-jdbc&amp;lt;/artifactId&amp;gt;
-  &amp;lt;version&amp;gt;2.0.0.M3&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h1 id="feedback-please" class="sect0"&gt;&lt;a class="anchor" href="#feedback-please"&gt;&lt;/a&gt;Feedback Please&lt;/h1&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;If you have feedback on this release, I encourage you to reach out via &lt;a href="http://stackoverflow.com/questions/tagged/spring-session"&gt;StackOverflow&lt;/a&gt;, &lt;a href="https://github.com/spring-projects/spring-session/issues"&gt;GitHub Issues&lt;/a&gt;, or via the comments section. You can also ping me &lt;a href="https://twitter.com/rob_winch"&gt;@rob_winch&lt;/a&gt;, Joe &lt;a href="https://twitter.com/joe_grandja"&gt;@joe_grandja&lt;/a&gt;, or Vedran &lt;a href="https://twitter.com/vedran_pavic"&gt;@vedran_pavic&lt;/a&gt;  on Twitter.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Of course the best feedback comes in the form of &lt;a href="https://github.com/spring-projects/spring-session/blob/2.0.0.M3/CONTRIBUTING.adoc"&gt;contributions&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-session/"&gt;Project Site&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-session/docs/2.0.0.M3/reference/html5/"&gt;Reference&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-session"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>

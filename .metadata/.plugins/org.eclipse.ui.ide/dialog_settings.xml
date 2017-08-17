@@ -6,6 +6,31 @@
 		<item value="org.eclipse.ajdt:2.2.4.201704242114"/>
 		<item value="org.eclipse.cft.server.core.feature:1.2.2.v201706141943"/>
 		<item value="org.eclipse.cft.server.ui.feature:1.0.9.v201706141943"/>
+		<item value="org.eclipse.datatools.connectivity.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.connectivity.oda.designer.core.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.connectivity.oda.designer.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.connectivity.oda.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.doc.user:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.apache.derby.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.hsqldb.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.ibm.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.ingres.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.jdbc.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.jdt.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.msft.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.mysql.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.oda.designer.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.oda.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.oracle.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.postgresql.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.sap.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.sqlite.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.enablement.sybase.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.modelbase.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.sqldevtools.ddlgen.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.sqldevtools.feature:1.14.0.201701131441"/>
+		<item value="org.eclipse.datatools.sqldevtools.parsers.feature:1.14.0.201701131441"/>
 		<item value="org.eclipse.draw2d:3.10.100.201606061308"/>
 		<item value="org.eclipse.egit.mylyn:4.8.0.201706111038-r"/>
 		<item value="org.eclipse.egit:4.8.0.201706111038-r"/>
@@ -30,9 +55,15 @@
 		<item value="org.eclipse.emf:2.13.0.v20170609-0928"/>
 		<item value="org.eclipse.epp.mpc:1.6.0.v20170616-0843"/>
 		<item value="org.eclipse.gef:3.11.0.201606061308"/>
+		<item value="org.eclipse.graphiti.feature:0.14.0.201705161212"/>
 		<item value="org.eclipse.help:2.2.100.v20170612-0950"/>
 		<item value="org.eclipse.jdt:3.13.0.v20170612-0950"/>
 		<item value="org.eclipse.jgit:4.8.0.201706111038-r"/>
+		<item value="org.eclipse.jpt.common.eclipselink.feature:1.3.200.v201603180253"/>
+		<item value="org.eclipse.jpt.common.feature:1.5.100.v201705180510"/>
+		<item value="org.eclipse.jpt.jpa.eclipselink.feature:3.4.100.v201603180253"/>
+		<item value="org.eclipse.jpt.jpa.feature:3.5.100.v201705180510"/>
+		<item value="org.eclipse.jpt.jpadiagrameditor.feature:1.2.300.v201604110621"/>
 		<item value="org.eclipse.jst.common.fproj.enablement.jdt:3.8.0.v201603091933"/>
 		<item value="org.eclipse.jst.enterprise_ui.feature:3.9.0.v201701262152"/>
 		<item value="org.eclipse.jst.ws.axis2tools.feature:1.1.301.v201410160332"/>
@@ -42,6 +73,7 @@
 		<item value="org.eclipse.m2e.logback.feature:1.8.1.20170728-1531"/>
 		<item value="org.eclipse.m2e.wtp.feature:1.3.2.20170517-2015"/>
 		<item value="org.eclipse.m2e.wtp.jaxrs.feature:1.3.2.20170517-2015"/>
+		<item value="org.eclipse.m2e.wtp.jpa.feature:1.3.2.20170517-2015"/>
 		<item value="org.eclipse.m2e.wtp.jsf.feature:1.3.2.20170517-2015"/>
 		<item value="org.eclipse.mylyn.bugzilla_feature:3.23.1.v20170623-0008"/>
 		<item value="org.eclipse.mylyn.commons.identity:1.15.0.v20170411-1844"/>
@@ -118,5 +150,11 @@
 		<item value="101" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="NewWizardAction">
+		<item value="org.eclipse.jpt.jpa.ui.wizard.newJpaProject" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jpt.jpa"/>
+			<item value="org.springframework.ide.eclipse.beans.ui.wizards.category"/>
+			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
+		</list>
 	</section>
 </section>
