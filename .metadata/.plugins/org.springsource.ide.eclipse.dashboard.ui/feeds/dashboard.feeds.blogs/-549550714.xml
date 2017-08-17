@@ -5,7 +5,7 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2017-08-15T04:56:05Z</updated>
+  <updated>2017-08-15T04:56:00Z</updated>
   <entry>
     <title>This Week in Spring - August 15th, 2017</title>
     <link rel="alternate" href="https://spring.io/blog/2017/08/15/this-week-in-spring-august-15th-2017" />
@@ -14,7 +14,7 @@
       <name>Josh Long</name>
     </author>
     <id>tag:spring.io,2017-08-15:3000</id>
-    <updated>2017-08-15T04:56:05Z</updated>
+    <updated>2017-08-15T04:56:00Z</updated>
     <content type="html">&lt;p&gt;Hi Spring fans and welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! It&amp;rsquo;s been a busy week! I started last week talking to a group of developers in North Carolina, then gave a VJUG presentation with Matt Raible in San Francisco, then spoke to developers in Saint Louis, then flew to New York City to shoot a video on continuous delivery for three days in a hot studio (over the weekend no less!) and now as I wing back to San Francisco I look forward to spending a blissful 14 hours on the ground before I&amp;rsquo;m off to Asia (Hangzhou, Shanghai, Beijing, Shenzhen, Hong Kong, and Singapore) for about four weeks! I&amp;rsquo;m not the only who&amp;rsquo;s been busy, though! As usual, we&amp;rsquo;ve got a &lt;em&gt;lot&lt;/em&gt; to cover this week so let&amp;rsquo;s get to it! &lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;My friend and Spring Framework lead &lt;a href="http://twitter.com/springJuergen"&gt;Juergen Hoeller&lt;/a&gt; gave a talk &lt;a href="https://www.youtube.com/watch?v=TZUZgU6rsNY"&gt;introducing reactive programming with Spring&lt;/a&gt; at Devoxx PL 2017. I hope you&amp;rsquo;ll watch this one, if you watch anything.&lt;/li&gt;
@@ -33,7 +33,7 @@
   &lt;li&gt;Also from the Okta blog this last week, &lt;a href="https://developer.okta.com/blog/2017/08/08/secure-spring-microservices"&gt;Matt Raible&amp;rsquo;s epic post that looks&lt;/a&gt; at how to secure Spring Boot and Spring Cloud microservices using JWTs, Juiser and Okta. Nice job Matt!&lt;/li&gt;
   &lt;li&gt;Congratulations to the Reactive Streams teams who just last week announced that &lt;a href="http://www.reactive-streams.org/announce-1.0.1"&gt;Reactive Streams 1.0.1&lt;/a&gt; is here!&lt;/li&gt;
   &lt;li&gt;Auth0&amp;rsquo;s security with Spring Boot game is pretty on point, too! This week they released a useful &lt;a href="https://auth0.com/blog/implementing-jwt-authentication-on-spring-boot/"&gt;look at securing Spring Boot applications with JSON Web Tokens (JWTs)&lt;/a&gt;. Nice job!&lt;/li&gt;
-  &lt;li&gt;Atomist co-founder Russ Miles looks at their collaboration tool&amp;rsquo;s ability to &lt;a href="https://github.com/ErnestOrt/Trampoline/releases"&gt;smoothly support a pull-request workflow&lt;/a&gt;. They do so in the context of a application (which happens to be written in Spring Boot) and while referencing Spring Boot in a post isn&amp;rsquo;t in of itself normally enough to be worthy of inclusion in these humble paragraphs, Atomist is generally so cool I&amp;rsquo;ll make an exception!&lt;/li&gt;
+  &lt;li&gt;Atomist&amp;rsquo;s Russ Miles looks at their collaboration tool&amp;rsquo;s ability to &lt;a href="https://the-composition.com/raise-merge-pull-requests-in-slack-62dcfd6d1c87"&gt;smoothly support a pull-request workflow&lt;/a&gt;. They do so in the context of a application (which happens to be written in Spring Boot) and while referencing Spring Boot in a post isn&amp;rsquo;t in of itself normally enough to be worthy of inclusion in these humble paragraphs, Atomist is generally so cool I&amp;rsquo;ll make an exception!&lt;/li&gt;
   &lt;li&gt;Congratulations to the Kotlin team at JetBrains on the &lt;a href="https://blog.jetbrains.com/kotlin/2017/08/kotlin-1-2-m2-is-out/"&gt;new Kotlin 1.2.M2&lt;/a&gt; release looks terrific. It includes new APIs supporting mathematics that work in a uniform way across the JVM and JavaScript runtimes for Kotlin. Now&amp;rsquo;s a good time to kick the tires and try the new features, perhaps &lt;a href="http://start.spring.io"&gt;using the Spring Boot Initializr&lt;/a&gt;?&lt;/li&gt;
   &lt;li&gt;Redmonk have a great post &lt;a href="http://redmonk.com/jgovernor/2017/08/10/notes-from-the-field-spring-boot-at-tesla-and-new-relic/"&gt;on Spring Boot users New Relic and the Tesla&lt;/a&gt; - in the field who&amp;rsquo;ve recently published their use.&lt;/li&gt;
   &lt;li&gt;The YouTube playlist for the Seoul, Korea-based &lt;a href="https://www.youtube.com/playlist?list=PLdHtZnJh1KdZ6NDO9zc9hF4tONDLTSEUV"&gt;&lt;em&gt;Spring Camp&lt;/em&gt;&lt;/a&gt; event and all of its wondedrful Pivotal and Spring-centric content (in Koean!) is now available. This is a wonderful resource for Korean speakers!&lt;/li&gt;
