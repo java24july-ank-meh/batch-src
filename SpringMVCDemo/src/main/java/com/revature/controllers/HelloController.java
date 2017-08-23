@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -31,7 +30,7 @@ public class HelloController {
 	
 	@RequestMapping(value="/login", method=RequestMethod.POST)
 	public String login(String username, String password, HttpServletRequest req) {
-		User u1 = new User((String) req.getParameter("username"),(String) req.getParameter("password"));
+		//User u1 = new User((String) req.getParameter("username"),(String) req.getParameter("password"));
 		User u = new User(username, password);
 		if (u.getUsername().equals("admin") && u.getPassword().equals("admin")) {
 			return "redirect:home";
