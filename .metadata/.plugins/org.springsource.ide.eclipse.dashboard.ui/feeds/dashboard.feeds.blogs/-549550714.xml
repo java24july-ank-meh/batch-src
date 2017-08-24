@@ -5,7 +5,7 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2017-08-22T15:15:55Z</updated>
+  <updated>2017-08-22T15:15:00Z</updated>
   <entry>
     <title>This Week in Spring - August 22nd, 2017</title>
     <link rel="alternate" href="https://spring.io/blog/2017/08/22/this-week-in-spring-august-22nd-2017" />
@@ -14,10 +14,10 @@
       <name>Josh Long</name>
     </author>
     <id>tag:spring.io,2017-08-22:3005</id>
-    <updated>2017-08-22T15:15:55Z</updated>
+    <updated>2017-08-22T15:15:00Z</updated>
     <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installation of This Week in Spring. Can you believe we&amp;rsquo;re already nearing the end of August?? Time sure flies! &lt;/p&gt;
 &lt;p&gt;Last week and over the weekend I was in Hangzhou, China visiting with Alibaba, talking to a few of the teams using Spring Boot and Spring Cloud at China-scale. &lt;/p&gt;
-&lt;p&gt;This week I&amp;rsquo;m in Shanghai, China, where I&amp;rsquo;ve been talking to customers and spending a few days with the teams at Microsoft China who are working on the Spring Boot and Pivotal Cloud Foundry integrations for Microsoft Azure. They&amp;rsquo;re doing some amazing work and it&amp;rsquo;s been an honor to hang out with them. &lt;/p&gt;
+&lt;p&gt;This week I&amp;rsquo;m in Shanghai, China, where I&amp;rsquo;ve been talking to customers and spending a few days with the teams at Microsoft China who are working on the Spring Boot and Pivotal Cloud Foundry integrations for Microsoft Azure. They&amp;rsquo;re doing some amazing work and it&amp;rsquo;s been an honor to hang out with them. Check out all the cool Spring Boot starters that they&amp;rsquo;ve &lt;a href="https://github.com/microsoft/azure-spring-boot-starters"&gt;built for the various Azure services&lt;/a&gt;.&lt;/p&gt;
 &lt;img src = "https://pbs.twimg.com/media/DH0-8NHWAAACvlG.jpg:large"  width = "500" /&gt;
 &lt;p&gt;(&lt;EM&gt;me with the Microsoft Shanghai teams&lt;/EM&gt;)&lt;/p&gt;
 &lt;p&gt;Now it&amp;rsquo;s off to Beijing, China, for the Spring Summit event! I sure hope to see you there! If you&amp;rsquo;re around, &lt;a href="http://joshlong.com/media/wechat.jpg"&gt;don&amp;rsquo;t hesitate to ping me on WeChat&lt;/a&gt;. &lt;/p&gt;
@@ -330,7 +330,7 @@ dependencies {&#xD;
       <name>Artem Bilan</name>
     </author>
     <id>tag:spring.io,2017-08-18:3002</id>
-    <updated>2017-08-21T15:33:19Z</updated>
+    <updated>2017-08-21T15:33:00Z</updated>
     <content type="html">&lt;div class="paragraph"&gt;
 &lt;p&gt;We are pleased to announce the availability of the &lt;a href="https://github.com/spring-projects/spring-kafka/commits/v1.3.0.M1"&gt;Milestone 2&lt;/a&gt; of the Spring for Apache Kafka &lt;code&gt;1.3&lt;/code&gt; version.&lt;/p&gt;
 &lt;/div&gt;
@@ -358,6 +358,9 @@ compile "org.springframework.kafka:spring-kafka:1.3.0.M1"&lt;/code&gt;&lt;/pre&g
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Apache Kafka &lt;a href="https://archive.apache.org/dist/kafka/0.11.0.0/RELEASE_NOTES.html"&gt;0.11.0.0&lt;/a&gt; client;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Improved listener container threading model facilitated by &lt;a href="https://cwiki.apache.org/confluence/display/KAFKA/KIP-62%3A+Allow+consumer+to+send+heartbeats+from+a+background+thread"&gt;KIP-62&lt;/a&gt;;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;With the new Apache Kafka foundation we have introduced the &lt;code&gt;KafkaTransactionManager&lt;/code&gt; and local transaction support in the &lt;code&gt;KafkaTemplate&lt;/code&gt; via new &lt;code&gt;executeInTransaction()&lt;/code&gt; operation;&lt;/p&gt;
