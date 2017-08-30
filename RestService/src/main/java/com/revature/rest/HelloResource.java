@@ -1,6 +1,7 @@
 package com.revature.rest;
 
 import javax.ws.rs.Consumes;
+import javax.ws.rs.FormParam;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -26,9 +27,9 @@ public class HelloResource {
 	}
 	
 	@POST
-	@Consumes("text/plain")
-	public void postText(String message) {
-		// Store the message
+	@Consumes("application/x-www-form-urlencoded")
+	public void postText(@FormParam("message") String message) {
+		System.out.println(message);
 	}
 	
 	@GET
