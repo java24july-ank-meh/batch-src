@@ -24,6 +24,9 @@
 &lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-commons" class="anchor" name="spring-cloud-commons"&gt;&lt;/a&gt;Spring Cloud Commons&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;You can now create &amp;ldquo;composite discovery clients&amp;rdquo; consisting of multiple discovery client implementations&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-netflix" class="anchor" name="spring-cloud-netflix"&gt;&lt;/a&gt;Spring Cloud Netflix&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;You now have the option of configuring the Eureka Client in Spring Cloud Netflix to use a Spring &lt;code&gt;RestTemplate&lt;/code&gt; instead of the default Jersey HTTP Client. See our &lt;a href="http://cloud.spring.io/spring-cloud-static/Edgware.M1/#_eurekaclient_without_jersey"&gt;documentation&lt;/a&gt; for more information.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The following modules were updated as part of Edgware.M1:&lt;/p&gt;
 &lt;table&gt;
@@ -188,8 +191,8 @@ dependencies {&#xD;
       <name>Josh Long</name>
     </author>
     <id>tag:spring.io,2017-08-29:3008</id>
-    <updated>2017-08-29T05:28:57Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week I was in Beijing, China for the &lt;em&gt;fabulous&lt;/em&gt; Spring Summit event which saw technologists from all around China descend on the capitol for a discussion of all things cloud native and Spring. Then I&amp;rsquo;m off to Shenzhen, China and Hong Kong for customer visits.&lt;/p&gt;
+    <updated>2017-08-29T05:28:00Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week I was in Beijing, China for the &lt;em&gt;fabulous&lt;/em&gt; Spring Summit event which saw technologists from all around China descend on the capitol for a discussion of all things cloud native and Spring. Then I&amp;rsquo;m off to Shenzhen, China and Hong Kong for customer visits and the epic &lt;a href="http://www.yowconference.hk"&gt;YOW! Hong Kong show&lt;/a&gt;! &lt;/p&gt;
 &lt;img src ="https://pbs.twimg.com/media/DIX3CIwXoAAVZJ2.jpg" width = "600" /&gt;
 &lt;ul&gt;
   &lt;li&gt;Pivotal have released &lt;a href="https://content.pivotal.io/announcements/security-innovation-through-platform-automation-pivotal-launches-concourse-for-pivotal-cloud-foundry"&gt;a commercial version of the Concourse CI pipeline tool&lt;/a&gt; for Cloud Foundry. Check it, and &lt;a href="https://spring.io/blog/2016/10/18/spring-cloud-pipelines"&gt;Spring Cloud Pipelines&lt;/a&gt;, out!&lt;/li&gt;
