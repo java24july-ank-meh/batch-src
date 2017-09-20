@@ -17,19 +17,19 @@ public class SpringRestClient {
 
 	public static void main(String[] args) {
 		ClientConfig config = new ClientConfig();
-        Client client = ClientBuilder.newClient(config);
-        WebTarget target = client.target(getBaseURI());
-        
-        String jsonResponse = target.path("artist").path("12")
-        		.request().accept(MediaType.APPLICATION_JSON).get(String.class);
+		Client client = ClientBuilder.newClient(config);
+		WebTarget target = client.target(getBaseURI());
 
-        Artist artist = new Gson().fromJson(jsonResponse, Artist.class);
-        
-        System.out.println(artist.getName());
-    }
+		String jsonResponse = target.path("artist").path("12").request().accept(MediaType.APPLICATION_JSON)
+				.get(String.class);
 
-    private static URI getBaseURI() {
-        return UriBuilder.fromUri("http://localhost:8181").build();
-    }
+		Artist artist = new Gson().fromJson(jsonResponse, Artist.class);
+
+		System.out.println(artist.getName());
+	}
+
+	private static URI getBaseURI() {
+		return UriBuilder.fromUri("http://localhost:8181").build();
+	}
 
 }

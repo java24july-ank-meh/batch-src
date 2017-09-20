@@ -26,4 +26,9 @@ public class ArtistController {
 	public Artist findOne(@PathVariable("id") long id) {
 		return as.findOne(id);
 	}
+	
+	@GetMapping("/hello")
+	public String hello() {
+		return "Hello, world!";
+	}
 }
